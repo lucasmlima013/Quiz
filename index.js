@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 
 app.get("/",(req,res) => {
 var nome = "Lucas Marinho";
-var lang = "JavaScripy"
+var lang = "JavaScript"
 
    res.render("index",{
       nome: nome,
