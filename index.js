@@ -7,12 +7,14 @@ app.set('view engine', 'ejs');
 app.get("/",(req,res) => {
 var nome = "Lucas Marinho";
 var lang = "JavaScript"
+var exibirmsg = true;
 
    res.render("index",{
       nome: nome,
       lang: lang,
       empresa: "Teste",
-      inscritos: 8000
+      inscritos: 8000,
+      msg: exibirmsg
    });
 });
 
