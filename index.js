@@ -5,7 +5,15 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.get("/",(req,res) => {
-   res.render("index");
+var nome = "Lucas Marinho";
+var lang = "JavaScripy"
+
+   res.render("index",{
+      nome: nome,
+      lang: lang,
+      empresa: "Teste",
+      inscritos: 8000
+   });
 });
 
 app.listen(8080,()=>{console.log("App rodando!!")});
