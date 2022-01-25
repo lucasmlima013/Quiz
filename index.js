@@ -9,12 +9,20 @@ var nome = "Lucas Marinho";
 var lang = "JavaScript"
 var exibirmsg = true;
 
+var produtos = [
+      {nome: "Doritos", preco: 3.5},
+      {nome: "Coca", preco: 5},
+      {nome: "Leite", preco: 4}
+]
+
+
    res.render("index",{
       nome: nome,
       lang: lang,
       empresa: "Teste",
       inscritos: 8000,
-      msg: exibirmsg
+      msg: exibirmsg,
+      produtos: produtos 
    });
 });
 
