@@ -12,7 +12,9 @@ var exibirmsg = true;
 var produtos = [
       {nome: "Doritos", preco: 3.5},
       {nome: "Coca", preco: 5},
-      {nome: "Leite", preco: 4}
+      {nome: "Leite", preco: 4},
+      {nome: "Carne", preco: 30},
+      {nome: "Nescau", preco: 8.5}
 ]
 
 
