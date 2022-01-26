@@ -15,7 +15,8 @@ var produtos = [
       {nome: "Coca", preco: 5},
       {nome: "Leite", preco: 4},
       {nome: "Carne", preco: 30},
-      {nome: "Nescau", preco: 8.5}
+      {nome: "Nescau", preco: 8.5},
+      {nome: "redbull", preco: 12}
 ]
 
 
