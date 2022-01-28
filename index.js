@@ -20,6 +20,7 @@ var produtos = [
 ]
 
 
+//renderizando na tela
    res.render("index",{
       nome: nome,
       lang: lang,
